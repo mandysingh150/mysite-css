@@ -1,0 +1,171 @@
+/* ************CLASS SELECTORS************ */
+.top-container {
+	background-color: #eaf6f6;
+	padding-top: 100px;
+	color: #66bfbf;
+}
+.top-container h2 {
+	font-size: 1.875rem;
+	padding-top: 0px;
+}
+.bottom-container {
+	background-color: #66bfbf;
+	padding: 30px 50px;
+}
+.footer-link {
+	color: #11999e;
+	text-decoration: none;
+	margin: 0 25px;
+}
+.footer-para {
+	color: #eaf6f6;
+	margin-top: 30px;
+	padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+.profile {
+	padding: 60px 0;
+	width: 30%;
+	margin: auto;
+}
+.profile-photo {
+	width: 250px;
+}
+.skill-row {
+	display: inline-block;
+	margin: 30px auto;
+	width: 60%;
+	text-align: left;
+	line-height: 2;
+}
+.web-img {
+	width: 24%;
+	float: left;
+	margin-right: 30px;
+}
+.programming-img {
+	width: 24%;
+	float: right;
+	margin-left: 30px;
+}
+.contact-me {
+	/* background-color: bisque; */
+	margin-bottom: 50px;
+	width: 40%;
+	margin: auto;
+}
+.pro {
+	text-decoration: underline;
+}
+.top-cloud {
+	position: absolute;
+	right: 15rem;
+	top: 4rem;
+}
+.bottom-cloud {
+	position: absolute;
+	left: 15rem;
+	bottom: 9rem;
+	color: #eaf6f6;
+}
+/* copied from https://cssbuttoncreator.com/ */
+.button {
+	-webkit-border-radius: 11px;
+	-moz-border-radius: 11px;
+	border-radius: 11px;
+	color: #FFFFFF;
+	font-family: Brush Script MT;
+	font-size: 21px;
+	font-weight: 100;
+	padding: 16px;
+	background-color: #11999E;
+	-webkit-box-shadow: 1px 1px 5px 0 #000000;
+	-moz-box-shadow: 1px 1px 5px 0 #000000;
+	box-shadow: 1px 1px 5px 0 #000000;
+	text-shadow: 1px 1px 20px #000000;
+	border: solid #337FED 0;
+	text-decoration: none;
+	display: inline-block;
+	cursor: pointer;
+	text-align: center;
+	margin: 50px;
+}
+.button:hover {
+	border: solid #000000 0;
+	background: #0CFF58;
+	background-image: -webkit-linear-gradient(top, #0CFF58, #0CFF58);
+	background-image: -moz-linear-gradient(top, #0CFF58, #0CFF58);
+	background-image: -ms-linear-gradient(top, #0CFF58, #0CFF58);
+	background-image: -o-linear-gradient(top, #0CFF58, #0CFF58);
+	background-image: -webkit-gradient(to bottom, #0CFF58, #0CFF58);
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	text-decoration: none;
+}
+
+/* ************TAG SELECTORS************ */
+body {
+	margin: 0px;
+	text-align: center;
+	font-family: 'Merriweather', serif;
+}
+
+h1 {
+	margin: 0 auto;
+	margin: 50px auto 0 auto;
+	font-size: 5.625em;
+	/* color: #66bfbf; */
+	font-family: 'Sacramento', cursive;
+}
+
+h2 {
+	color: #66bfbf;
+	font-size: 2.8rem;
+	font-family: 'Montserrat', sans-serif;
+	padding-top: 30px;
+}
+
+h3 {
+	font-size: 1.5rem;
+	font-family: 'Montserrat', sans-serif;
+	color: #11999e;
+	/* padding: 20px; */
+}
+
+img {
+	margin-top: 10px;
+}
+
+hr {
+	border-style: dotted;
+	border-width: 10px 0 0 0;
+	color: #eaf6f6;
+	width: 5%;
+}
+
+a {
+	font-size: 1.3rem;
+	color: #11999e;
+}
+
+p {
+	font-size: 1.2rem;
+	margin: 10px auto;
+	padding-bottom: 10px;
+	font-weight: normal;
+	color: #40514e;
+}
+
+nav {
+	background-color: black;
+	text-align: center;
+	padding: 20px;
+}
+
+nav a {
+	color: white;
+	margin-right: 1.25rem;
+	margin-left: 1.25rem;
+	text-decoration: none;
+}
